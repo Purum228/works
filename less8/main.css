@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;box-sizing: border-box;
+}
+
+body{
+    width: 80%;
+    margin: 0 auto;
+    background: rgb(221, 219, 201);
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+.font-list{
+background: rgb(15, 15, 104);
+color: #fff;
+border-radius: 15px;
+padding: 30px;
+margin: 20px 0;
+width: 50%;
+transition: width 3s;
+}
+
+.font-list:hover{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 15px; 
+}
+
+.transform{
+    margin: 20px 0;
+}
+
+.tr_block{
+    margin: 20px 0;
+    padding: 30px;
+    background:rgb(15, 15, 104) ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.tr_element{
+    height: 100px;
+    width: 100px;
+    background: rgb(246, 255, 213);
+    animation: skew 3s infinite;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    opacity: .7;
+}
+
+@keyframes skew{
+    0%{
+        transform: skewX(20deg);
+    }
+    100%{
+        transform: skewX(-20deg);
+    }
+}
+
+.bg{
+margin: 20px 0;
+}
+
+.bg_img{
+    margin: 20px 0;
+    width: 100%;
+    height: 60vh;
+    background: url(/img/space3.jfif) no-repeat center center; 
+}
+img{
+    margin: 20px 0;
+    width: 100%;
+    height: 80vh;
+}
+
+.picture img{
+    width: 100%;
+} 
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ofset_block{
+    flex-basis: 30%;
+}
+
+.ofset_block img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.ofset{
+    margin: 20px 0;
+}

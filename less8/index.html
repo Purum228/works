@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+    <h1>Lesson 8. Images. Font Awesome. Basic animation</h1>
+    <div class="font">
+        <h2>Font awesome +transition</h2>
+        <div class="font-list">
+           <ul>
+               <li><i class="fas fa-check-square"></i> Marvel</li>
+               <li><i class="fas fa-spinner fa-pulse"></i> DC</li>
+               <li><i class="far fa-square"></i> StarWars</li>
+           </ul>
+        </div>
+        <p>Наведись на синій блок і узри магію <strong>transition</strong></p>
+    </div>
+    <div class="transform">
+        <h2>Transform</h2>
+        <div class="tr_block">
+            <div class="tr_element"></div>
+            <div class="tr_element"></div>
+            <div class="tr_element"></div>
+        </div>
+        <p> <strong>Transform & keyframes</strong> в дії </p>
+    </div>
+    <div class="bg">
+        <h2>CSS Backgraund</h2>
+        <div class="bg_img"></div>
+        <p>Виставляємо картинку через CSS властивість Background</p>
+    </div>
+    <div class="picture">
+        <h2>Images (HTML pictures)</h2>
+        <picture>
+              <source media="(min-width: 1360px)" srcset="./img/marvel.jpg" type="image/jpg">
+              <source media="(min-width: 960px)" srcset="./img/dc.jpg" type="image/jpg">
+              <source media="(min-width: 550px)" srcset="./img/starwars.jpg" type="image/jpg">
+              <img src="img/marvel.jpg" alt="">
+        </picture>
+        <p>Використання тега picture для відображення потрібної картинки на екрані</p>
+        <p>Відкрий цю сторінку на різних девайсах і подивись на результат</p>
+    </div>
+    <div class="ofset">
+        <h2>Universes (HTML object-fit) </h2>
+        <div class="blocks"> 
+        <div class="ofset_block">
+            <img src="img/starwars.jpg" alt="">
+            <p>Тут криється картинка з розширенням 300*181</p>
+        </div>
+        <div class="ofset_block">
+            <img src="img/dc.jpg" alt="">
+            <p>Тут криється картинка з розширенням 700*350</p>
+        </div>
+        <div class="ofset_block">
+            <img src="img/marvel.jpg" alt="">
+            <p>Тут криється картинка з розширенням 1920*1350</p>
+        </div>
+    </div>
+     
+    </div>
+</body>
+</html>

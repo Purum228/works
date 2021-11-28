@@ -1,0 +1,68 @@
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+.flag{
+    background: #fff;
+    border: 2px solid #000;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.circle{
+    background:red;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.insta{
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+}
+
+.line{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top:20px;
+    left: 0;
+    border-radius: 100px;
+    margin: auto;
+    border: 30px solid #fff;
+}
+
+.incont{
+    border-radius: 50%;
+    border: 30px solid #fff;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 70px;
+    bottom:0;
+    left: 70px;
+    right: 0;
+    margin: 0;
+}
+
+.mini:after{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    right: 0;
+    content: '';
+    left: 280px;
+    top: -270px;
+}
